@@ -3,16 +3,5 @@
   "github": {
     "enabled": true,
     "silent": true
-  },
-  "builds": [
-    {
-      "src": "api/**/*.go",
-      "use": "@now/go"
-    }
-  ],
-  "routes": [
-    { "src": "/", "dest": "/api/index.go" },
-    { "src": "/ping", "dest": "/api/ping.go" },
-    { "src": "/multi", "dest": "/api/multi.go" }
-  ]
+  }
 }
